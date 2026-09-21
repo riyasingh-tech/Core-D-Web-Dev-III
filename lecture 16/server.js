@@ -42,4 +42,4 @@ app.get("/weather-data",apiMiddleware,(req,res)=>{    //route level middleware
 })
 
 
-app.listen(PORT,()=>console.log("server is running on port 3000"));
+app.listen(PORT,()=>console.log("server is running on port 3000"))
