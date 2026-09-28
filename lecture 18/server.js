@@ -4,7 +4,7 @@ const PORT = 3000;
 
 app.get('/', (req, res, next) => {
     try{
-        throw new Error("Something went wrong!!!!!!!!!!");
+        throw new Error("Something went wrong!!!!!");
     }catch(error){
         // res.status(500).json({success:false, message:"Something went wrong"});
         next(error);
