@@ -76,11 +76,11 @@ db.employee.updateMany(
 
 
 
-  db.employee.find(
+  db.employees.find(
        {
 
           $or:[
-            { dept:"Finance" },
+            { dept:"HR" },
             {age}
           ]
        }
