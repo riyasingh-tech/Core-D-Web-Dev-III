@@ -81,7 +81,7 @@ db.employee.updateMany(
 
           $or:[
             { dept:"HR" },
-            {age}
+            {age} 
           ]
        }
   )
